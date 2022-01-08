@@ -1,21 +1,65 @@
 h1 {
     size: 17px;
     color: #2c3e50
-
 }
 
 .btn{
-    color: #2ecc71
+    background-color: #2ecc71;
+    color: white;
+    border-radius: 5px;
 }
 
-btn:hover{
-    color:#27ae60
-
+.btn:hover {
+    background-color:#27ae60;
 }
 
 .alert {
     background-color: #f8d7da;
     border-color: #f5c6cb;
     color: #721c24;
+    width: 100px
 
 }
+
+.list-group{
+    list-style: none; 
+    display:inline-block;
+    /* border-color: black;
+    border-style: solid; */
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    /* background-color: blue; */
+    width: 200px;
+    padding: 0;
+    
+}
+
+.list-group-item{
+    
+    border-top: 1px solid #DFDFDF;
+    border-color: #DFDFDF;
+    padding: 5px;  
+    padding-left: 15px;
+}
+
+.list-group-item:first-child{
+    border: none
+}
+
+/* ul {
+    display:inline-block;
+    border: 1px black;
+    font-family: 'Roboto';
+    width: 100px;
+    border-radius: 5px;
+  }
+
+li{
+    display: block;
+    border: 1px solid black;
+    border: solid;
+    font-family: 'Roboto';
+    width: 100px;
+    border-radius: 5px;
+
+} */
