@@ -3,3 +3,12 @@ h1 {
     color: #2c3e50
 
 }
+
+.btn{
+    color: #2ecc71
+}
+
+btn:hover{
+    color:#27ae60
+    
+}
